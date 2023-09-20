@@ -1,0 +1,58 @@
+hr {
+    height: 3px;
+    background-color: burlywood;
+    border-color: brown;
+}
+
+.occupation {
+    font-style:italic;
+}
+
+.name, .occupation, .ID {
+    text-align: center;
+    font-family: Geneva;
+}
+
+.desc, .contact, .edu, .hobby,.email, .PW, .IG,.school,.hobby {
+    font-family: Arial;
+}
+
+.table {
+    border-color:burlywood;
+}
+
+.pfp {
+    width: 200px; 
+    height: auto; 
+    transition: opacity 0.3s; 
+}
+
+.pfp:hover {
+    opacity: 0; 
+}
+
+.nickname {
+    display: none;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.pfp:hover + .nickname {
+    display: block;
+}
+
+a {
+    color: blue;
+  }
+  
+a:visited {
+    color: blue;
+}
+  
+a:hover {
+    color: brown;
+}
+  
+a:active {
+    color: brown;
+}
